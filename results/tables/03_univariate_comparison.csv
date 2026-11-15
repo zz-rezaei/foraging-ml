@@ -1,0 +1,20 @@
+family,feature,median Control,median AD,AUC (AD > Control),p (Mann-Whitney),n AD / Control
+Overall proportions,all_Eat,0.6011,0.5847,0.5247,0.8118,13 / 28
+Overall proportions,all_Carry,0.0749,0.0417,0.419,0.4148,13 / 28
+Overall proportions,all_NosePoke,0.1559,0.1078,0.4863,0.8996,13 / 28
+Overall proportions,all_NoLeave,0.0204,0.0579,0.5879,0.3698,13 / 28
+Short-soft choices,ss_Eat,0.5128,0.7,0.7115,0.032,13 / 28
+Short-soft choices,ss_Carry,0.125,0.0,0.3352,0.0902,13 / 28
+Short-soft choices,ss_NosePoke,0.1759,0.2,0.4835,0.8772,13 / 28
+Short-soft choices,ss_NoLeave,0.0,0.0,0.3544,0.0673,13 / 28
+Short-soft choices,ss_size_effect_Eat,-0.3636,-0.4091,0.5165,0.8775,13 / 28
+Short-soft choices,ss_size_effect_Carry,0.1954,0.0,0.3214,0.0663,13 / 28
+Short-soft choices,ss_switch_rate,0.5351,0.4167,0.3173,0.0643,13 / 28
+Movement (Eat trials),ss_eat_delay_median,2.6667,18.2333,0.7019,0.0408,13 / 28
+Movement (Eat trials),ss_eat_initial_speed_out_median,20.3035,27.579,0.6154,0.245,13 / 28
+Movement (Eat trials),ss_eat_time_at_food_median,22.4,23.0333,0.4918,0.9442,13 / 28
+Movement (Eat trials),ss_eat_speed_in_median,10.8752,21.1709,0.794,0.0028,13 / 28
+Movement (Eat trials),ss_eat_back_and_forth_fraction,0.4782,0.1316,0.1813,0.0012,13 / 28
+Distance sensitivity,soft_distance_effect_Eat,0.0917,-0.2684,0.1654,0.0023,10 / 26
+Distance sensitivity,soft_distance_effect_Carry,-0.0198,0.0,0.6462,0.1838,10 / 26
+Distance sensitivity,soft_distance_effect_NoLeave,0.0,0.3426,0.8538,0.001,10 / 26

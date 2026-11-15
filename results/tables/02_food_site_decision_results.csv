@@ -1,0 +1,5 @@
+group,features,balanced_accuracy,balanced_accuracy_CI,macro_F1,macro_F1_CI,log_loss,log_loss_CI
+Control,Task + History + Experience,0.53,"[0.50, 0.56]",0.494,"[0.43, 0.54]",0.932,"[0.91, 0.95]"
+Control,"+ Approach (DelayToStart, InitialVelOut)",0.52,"[0.48, 0.55]",0.489,"[0.44, 0.52]",0.907,"[0.87, 0.95]"
+AD,Task + History + Experience,0.504,"[0.42, 0.54]",0.426,"[0.35, 0.48]",0.966,"[0.93, 1.00]"
+AD,"+ Approach (DelayToStart, InitialVelOut)",0.532,"[0.45, 0.57]",0.454,"[0.36, 0.50]",0.929,"[0.86, 1.02]"

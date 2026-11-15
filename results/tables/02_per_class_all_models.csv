@@ -1,0 +1,65 @@
+group,features,model,behavior,recall,F1
+Control,Task,Baseline (class frequencies),Eat,1.0,0.744
+Control,Task,Baseline (class frequencies),Carry,0.0,0.0
+Control,Task,Baseline (class frequencies),NosePoke,0.0,0.0
+Control,Task,Baseline (class frequencies),NoLeave,0.0,0.0
+Control,Task,Logistic regression,Eat,0.559,0.659
+Control,Task,Logistic regression,Carry,0.484,0.368
+Control,Task,Logistic regression,NosePoke,0.363,0.339
+Control,Task,Logistic regression,NoLeave,0.257,0.191
+AD,Task,Baseline (class frequencies),Eat,1.0,0.777
+AD,Task,Baseline (class frequencies),Carry,0.0,0.0
+AD,Task,Baseline (class frequencies),NosePoke,0.0,0.0
+AD,Task,Baseline (class frequencies),NoLeave,0.0,0.0
+AD,Task,Logistic regression,Eat,0.375,0.524
+AD,Task,Logistic regression,Carry,0.29,0.187
+AD,Task,Logistic regression,NosePoke,0.171,0.173
+AD,Task,Logistic regression,NoLeave,0.783,0.361
+Control,Task + History,Logistic regression,Eat,0.476,0.604
+Control,Task + History,Logistic regression,Carry,0.569,0.381
+Control,Task + History,Logistic regression,NosePoke,0.279,0.281
+Control,Task + History,Logistic regression,NoLeave,0.399,0.248
+Control,Task + History + Experience,Logistic regression,Eat,0.484,0.611
+Control,Task + History + Experience,Logistic regression,Carry,0.572,0.403
+Control,Task + History + Experience,Logistic regression,NosePoke,0.353,0.334
+Control,Task + History + Experience,Logistic regression,NoLeave,0.39,0.243
+AD,Task + History,Logistic regression,Eat,0.458,0.594
+AD,Task + History,Logistic regression,Carry,0.522,0.284
+AD,Task + History,Logistic regression,NosePoke,0.289,0.277
+AD,Task + History,Logistic regression,NoLeave,0.594,0.403
+AD,Task + History + Experience,Logistic regression,Eat,0.464,0.597
+AD,Task + History + Experience,Logistic regression,Carry,0.512,0.292
+AD,Task + History + Experience,Logistic regression,NosePoke,0.315,0.312
+AD,Task + History + Experience,Logistic regression,NoLeave,0.638,0.406
+Control,Task + History + Experience,Decision tree,Eat,0.542,0.645
+Control,Task + History + Experience,Decision tree,Carry,0.685,0.441
+Control,Task + History + Experience,Decision tree,NosePoke,0.235,0.284
+Control,Task + History + Experience,Decision tree,NoLeave,0.303,0.217
+Control,Task + History + Experience,Random forest,Eat,0.525,0.638
+Control,Task + History + Experience,Random forest,Carry,0.654,0.403
+Control,Task + History + Experience,Random forest,NosePoke,0.198,0.248
+Control,Task + History + Experience,Random forest,NoLeave,0.404,0.281
+Control,Task + History + Experience,Gradient boosting,Eat,0.503,0.621
+Control,Task + History + Experience,Gradient boosting,Carry,0.567,0.392
+Control,Task + History + Experience,Gradient boosting,NosePoke,0.344,0.324
+Control,Task + History + Experience,Gradient boosting,NoLeave,0.362,0.266
+AD,Task + History + Experience,Decision tree,Eat,0.445,0.574
+AD,Task + History + Experience,Decision tree,Carry,0.377,0.261
+AD,Task + History + Experience,Decision tree,NosePoke,0.369,0.324
+AD,Task + History + Experience,Decision tree,NoLeave,0.7,0.413
+AD,Task + History + Experience,Random forest,Eat,0.421,0.561
+AD,Task + History + Experience,Random forest,Carry,0.44,0.247
+AD,Task + History + Experience,Random forest,NosePoke,0.349,0.355
+AD,Task + History + Experience,Random forest,NoLeave,0.7,0.403
+AD,Task + History + Experience,Gradient boosting,Eat,0.447,0.586
+AD,Task + History + Experience,Gradient boosting,Carry,0.531,0.289
+AD,Task + History + Experience,Gradient boosting,NosePoke,0.349,0.352
+AD,Task + History + Experience,Gradient boosting,NoLeave,0.652,0.41
+Control,Task + History + Experience,Logistic regression (unweighted),Eat,0.933,0.775
+Control,Task + History + Experience,Logistic regression (unweighted),Carry,0.205,0.269
+Control,Task + History + Experience,Logistic regression (unweighted),NosePoke,0.169,0.246
+Control,Task + History + Experience,Logistic regression (unweighted),NoLeave,0.018,0.032
+AD,Task + History + Experience,Logistic regression (unweighted),Eat,0.927,0.794
+AD,Task + History + Experience,Logistic regression (unweighted),Carry,0.164,0.231
+AD,Task + History + Experience,Logistic regression (unweighted),NosePoke,0.164,0.261
+AD,Task + History + Experience,Logistic regression (unweighted),NoLeave,0.227,0.278

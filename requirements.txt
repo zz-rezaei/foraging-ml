@@ -1,0 +1,10 @@
+# Python 3.11. Versions below are the ones the analysis was run with;
+# nearby versions should work too.
+numpy==2.4.6
+pandas==3.0.6
+scipy==1.17.1
+scikit-learn==1.9.1
+matplotlib==3.11.2
+ipykernel==7.4.0     # runs the notebooks (open them in VS Code, or: pip install jupyterlab)
+nbconvert==7.17.2    # runs notebooks from the command line
+pytest==9.2.0

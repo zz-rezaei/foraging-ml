@@ -1,0 +1,15 @@
+feature set,mice,n features,model,AUC mean,AUC SD (splits),balanced accuracy
+Overall proportions,13 AD / 28 Ctrl,4,Logistic regression,0.505,0.054,0.519
+Overall proportions,13 AD / 28 Ctrl,4,Random forest,0.505,0.061,0.54
+Short-soft choices,13 AD / 28 Ctrl,7,Logistic regression,0.591,0.061,0.62
+Short-soft choices,13 AD / 28 Ctrl,7,Random forest,0.744,0.026,0.684
+Movement (Eat trials),13 AD / 28 Ctrl,5,Logistic regression,0.805,0.043,0.729
+Movement (Eat trials),13 AD / 28 Ctrl,5,Random forest,0.885,0.03,0.793
+Choices + Movement,13 AD / 28 Ctrl,12,Logistic regression,0.893,0.03,0.81
+Choices + Movement,13 AD / 28 Ctrl,12,Random forest,0.913,0.027,0.81
+Short-soft choices (36 mice),10 AD / 26 Ctrl,7,Logistic regression,0.54,0.067,0.584
+Short-soft choices (36 mice),10 AD / 26 Ctrl,7,Random forest,0.716,0.029,0.734
+Distance sensitivity,10 AD / 26 Ctrl,3,Logistic regression,0.807,0.037,0.754
+Distance sensitivity,10 AD / 26 Ctrl,3,Random forest,0.78,0.024,0.712
+Choices + Distance,10 AD / 26 Ctrl,10,Logistic regression,0.729,0.071,0.644
+Choices + Distance,10 AD / 26 Ctrl,10,Random forest,0.81,0.042,0.667

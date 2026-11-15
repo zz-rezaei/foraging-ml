@@ -1,0 +1,9 @@
+,mean,mean,std,std
+group,AD,Control,AD,Control
+feature,,,,
+SizeCategory,0.0445,0.1033,0.0318,0.0248
+PrevBehavior,0.0776,0.0479,0.0341,0.031
+SessionInCondition,-0.0083,0.0082,0.0491,0.0128
+TrialInSession,-0.0067,0.0062,0.0116,0.0267
+Length,0.0643,0.0052,0.0446,0.0158
+Texture,-0.0373,0.0023,0.058,0.0113

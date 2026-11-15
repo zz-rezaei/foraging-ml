@@ -1,0 +1,6 @@
+feature set,AUC (fixed C),null 95th percentile,p-value
+Overall proportions,0.4736,0.6654,0.515
+Short-soft choices,0.6234,0.6836,0.1158
+Movement (Eat trials),0.8473,0.6775,0.002
+Choices + Movement,0.9038,0.6849,0.002
+Distance sensitivity,0.8054,0.6993,0.006
